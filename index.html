@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyGo Programming Language</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-okaidia.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="40" height="40">
+                    <path d="M70 50 Q 70 30, 90 30 L 110 30 Q 130 30, 130 50 L 130 70 Q 130 90, 110 90 L 90 90" fill="none" stroke="#FFD43B" stroke-width="16" stroke-linecap="round"/>
+                    <path d="M130 150 Q 130 170, 110 170 L 90 170 Q 70 170, 70 150 L 70 130 Q 70 110, 90 110 L 110 110" fill="none" stroke="#00ACD7" stroke-width="16" stroke-linecap="round"/>
+                    <line x1="110" y1="110" x2="130" y2="110" stroke="#00ACD7" stroke-width="16" stroke-linecap="round"/>
+                    <line x1="90" y1="90" x2="90" y2="110" stroke="#306998" stroke-width="16" stroke-linecap="round"/>
+                </svg>
+                <span>PyGo</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#future">Future</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>PyGo Programming Language</h1>
+            <p>A toy language combining Python's readability with Go-inspired features</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About PyGo</h2>
+                <p>PyGo is a toy programming language project born out of a journey to learn Go. It aims to explore the possibility of combining Python's readability with Go-inspired features. This project serves as both a learning exercise and a playground for language design ideas.</p>
+                <h3>Project Origin</h3>
+                <p>PyGo was born when a Python developer learning Go had a eureka moment: "If Python is dynamically typed and Go is statically typed, maybe I can create a language that's dramatically typed!"</p>
+                <p>This flash of caffeine-induced inspiration led to a toy language where variables might act up unexpectedly, functions occasionally go on coffee breaks, and 'Hello, World!' sometimes replies 'Not today, I have a headache.'</p>
+                <p>It's growing alongside its creator's coding skills and coffee intake. Who knows what it might compile next? Who knows? One day it might even learn to fly – because in the world of programming, anything is possible!</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2>Current State</h2>
+                <p>PyGo is in its very early, experimental stages. Here's what we have so far:</p>
+                <ul>
+                    <li>Basic syntax parsing for function definitions and print statements</li>
+                    <li>A VS Code extension for syntax highlighting</li>
+                    <li>Foundation for a simple interpreter</li>
+                </ul>
+                <a href="https://github.com/mhdsulaimzed/PygoSyntax"><h3>PygoSyntax - VS Code Extension</h3></a>
+                <p>Example of current PyGo code:</p>
+                <pre><code class="language-python">
+def main():
+    print("Hello, PyGo!")
+                </code></pre>
+            </div>
+        </section>
+
+        <section id="future">
+            <div class="container">
+                <h2>Future Possibilities</h2>
+                <p>While PyGo is currently a toy project, here are some ideas for its potential development:</p>
+                <h3>Short-term Explorations</h3>
+                <ul>
+                    <li>Experiment with user input handling</li>
+                    <li>Try implementing basic variables</li>
+                    <li>Explore simple loop constructs</li>
+                    <li>Attempt conditional statements</li>
+                </ul>
+                <h3>Learning Objectives</h3>
+                <ul>
+                    <li>Gain deeper understanding of language parsing</li>
+                    <li>Explore the basics of type systems</li>
+                    <li>Learn about error handling in language design</li>
+                </ul>
+                <h3>Long-term Aspirations</h3>
+                <ul>
+                    <li>Potentially evolve into a more feature-complete language</li>
+                    <li>Possibly explore compiler design concepts</li>
+                    <li>Consider implementing Go-inspired features as learning progresses</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="60" height="60">
+                    <path d="M70 50 Q 70 30, 90 30 L 110 30 Q 130 30, 130 50 L 130 70 Q 130 90, 110 90 L 90 90" fill="none" stroke="#FFD43B" stroke-width="16" stroke-linecap="round"/>
+                    <path d="M130 150 Q 130 170, 110 170 L 90 170 Q 70 170, 70 150 L 70 130 Q 70 110, 90 110 L 110 110" fill="none" stroke="#00ACD7" stroke-width="16" stroke-linecap="round"/>
+                    <line x1="110" y1="110" x2="130" y2="110" stroke="#00ACD7" stroke-width="16" stroke-linecap="round"/>
+                    <line x1="90" y1="90" x2="90" y2="110" stroke="#306998" stroke-width="16" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="footer-section">
+                <h4>PyGo</h4>
+                <p>&copy; 2023 PyGo Language</p>
+                <p>Licensed under the <a href="#">MIT License</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="https://github.com/mhdsulaimzed/py-go">GitHub</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
